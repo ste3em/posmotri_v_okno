@@ -1,0 +1,8 @@
+/fonts/*
+/images/*
+node_modules/
+.gitignore
+.prettierrc
+/packege-lock.json
+/packege.json
+/stylelint.config.js
