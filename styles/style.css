@@ -81,13 +81,17 @@ fieldset {
   line-height: 21.6px;
 }
 
-.search-form__label:hover .search-form__label-text {
-  text-decoration-line: underline;
-}
-
 .search-form__label:has(:focus-visible) {
   outline: 1px solid white;
   outline-offset: 2px;
+}
+
+.search-form__label-text {
+  user-select: none;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration-line: underline;
 }
 
 .search-form__textfield {
@@ -159,6 +163,7 @@ fieldset {
   font-size: 18px;
   background-color: transparent;
   cursor: pointer;
+  user-select: none;
 }
 
 .button:active {
@@ -233,7 +238,7 @@ fieldset {
 }
 
 .content__card-link:hover {
-  text-decoration-line: underline;
+  text-decoration-line: none;
 }
 
 .content__card-link:focus {

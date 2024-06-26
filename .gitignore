@@ -6,3 +6,4 @@ node_modules/
 /packege-lock.json
 /packege.json
 /stylelint.config.js
+.hintrc
