@@ -53,15 +53,15 @@ ol {
 
 .result__video-container {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 16px;  
+  inline-size: 711px;
+  block-size: 386px;
 }
 
 .result__video {
   width: 100%;
   object-fit: cover;
   object-position: center;
-  inline-size: 711px;
-  block-size: 386px;
 }
 
 .search-form {
@@ -284,7 +284,6 @@ fieldset {
   overflow: hidden;
   line-height: 16.2px;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .visually-hidden {
